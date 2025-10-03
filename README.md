@@ -19,3 +19,19 @@
 > https://docs.google.com/spreadsheets/d/1qWDxDXGp8qDGr4qkEcNzMOu1YCL5zRbF/edit?usp=sharing&ouid=117035596094605214154&rtpof=true&sd=true
 
 
+## Instrucciones para incializar al api de c#
+
+- Migraciones
+
+1. Creacion de migraciones
+
+```
+    Add-Migration colegioPrueba -Project Entity -StartupProject Web -Context AplicationDbContext
+```
+
+2. Creacion de base de datos a partir de la migración
+
+```
+    Update-Database
+
+```
